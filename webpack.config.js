@@ -1,7 +1,7 @@
 module.exports = [
     {
         name: 'server',
-        entry: './index.ts',
+        entry: './src/index.ts',
         target: 'node',
         output: {
             path: __dirname + '/dist',

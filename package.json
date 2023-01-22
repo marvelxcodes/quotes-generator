@@ -1,12 +1,12 @@
 {
   "name": "quotes-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Random Quotes Generator API!",
-  "main": "index.ts",
+  "main": "./src/index.ts",
   "scripts": {
     "start": "node ./dist/server.js",
     "build": "webpack",
-    "dev": "nodemon"
+    "dev": "nodemon ./src/index.ts"
   },
   "keywords": [],
   "author": "",
